@@ -1,0 +1,18 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin: 3%;
+    padding: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+h1{
+    font-size: 50px;   
+}
+.name-highlight{
+    color: orange;
+}
