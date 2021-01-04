@@ -4,15 +4,15 @@ body{
 }
 /* first section*/
 section{
-    height: 500px;
-    padding-bottom: 120px;
+    height: 600px;
+    margin-bottom: 100px;
 }
 .top-banner{
     background-image: url("images/top-banner.png");
     background-repeat: no-repeat;
 }
 .half-width{
-    width: 40%;
+    width: 38%;
     float: left;
     margin: 3%;
     padding: 2%;
@@ -45,4 +45,28 @@ p{
     background-image: url("images/dream-bg.png");
     background-repeat: no-repeat;
     background-position: right;
+}
+.experience-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 50%;
+    background-color: white;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,lightSalmon,tomato);
+    border-image-slice: 1;
+}   
+#baby-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,blue,cyan);
+    border-image-slice: 1;
+}  
+footer p{
+    text-align: center;
 }
